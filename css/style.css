@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,700');
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	color: #212529;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky .navbar-default{
+	background-color: #884bdf;
+}
+
+.imgfondo {
+	background-image: url(../img/app-img-2.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.intro{padding: 40px 0;}
+.intro h1 {font-size: 60px;
+font-weight: 400;}
+
+.intro p {font-size: 20px;
+color: #848890 }
+
+.intro h1::after{
+	content: "";
+	width: 85px;
+	height: 10px;
+	background-color: #00D3F3;
+	display: block; 
+	border-radius: 0px 0px 4px 4px;
+}
+
+.titulo {
+	text-align: center;
+	border-radius: 0px 0px 4px 4px;
+	padding: 30px;
+}
+
+.titulo::after{
+	content: "";
+	width: 85px;
+	height: 10px;
+	background-color: #00D3F3;
+	display: block; 
+	border-radius: 0px 0px 4px 4px;
+	align-content: center;
+	margin: 10px auto;
+}
+
+.fondovueltilla {background-image: url(../img/app-cover-3.jpg);background-size: cover;}
+
+#latabla td,
+#latabla th{
+	padding: 20px;		
+}
+
+#latabla th{
+	font-size: 18px;
+}
+
+#latabla th:nth-child(2),
+#latabla th:nth-child(3){
+	text-align: center;
+}
+
+#latabla .table{
+	border-collapse: separate;
+	border-color: #FFFFFF;
+}
+
+#latabla th:first-child{
+	border-radius: 15px 0px 0px;
+	background-color: #FFFFFF;
+	border: 1px solid #ddd; 
+}
+
+#latabla th:last-child{
+	border-radius: 0px 15px 0 0;
+	background-color: #FFFFFF;
+	border: 1px solid #ddd; 
+}
+
+#latabla tr:last-child td:last-child{
+	border-radius: 0px 0px 15px 0px;
+	border: 1px solid #ddd; 
+}
+
+#latabla tr:last-child td:first-child{
+	border-radius: 0px 0px 0px 15px;
+	border: 1px solid #ddd; 
+}
+
+#latabla th:nth-child(2){
+	border-top: 1px solid #ddd 
+}
+
+#latabla th:nth-child(1),
+#latabla td:nth-child(1){
+	background-color: #FFFFFF;
+}
+
+#latabla th:nth-child(2),
+#latabla td:nth-child(2){
+	background-color: #E7E9F0;
+}
+
+#latabla th:nth-child(3),
+#latabla td:nth-child(3){
+	background-color: #E7E8EB;
+}
+
+#simplecounter i{font-size: 90px;
+text-align: center;
+color: ABB1BD;
+}
+
+#simplecounter h4{font-size: 40px;
+color:#D6D9E2;
+text-align: center;
+}
+
+#simplecounter p{color: #7A6D78;
+font-size: 20px;
+font-weight: 1000px;}
+
+.imgbrushazo {
+	background-image: url(../img/app-img-8.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+
+#form input {
+	background-color: #FFFFFF;
+	padding: 20px 10px;
+	border: 0;
+	border-top: 0;
+	box-shadow: 1px 1px 4px 5px #eee 
+		}
+
+.btn-ultima{
+	background-color: #00D3F3;
+	color: #FFFFFF;
+	padding: 25px;
+	text-align: center;
+	border-radius: 20px;
+	border: 0px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
